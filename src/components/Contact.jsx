@@ -6,6 +6,7 @@ import { slideIn } from "../utils/motion";
 import { EarthCanvas } from "./canvas";
 import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
+import { github, linkedin } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -57,20 +58,43 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
         <p className={`${styles.sectionSubText}`}>Get in touch</p>
-        <h3 className={`${styles.sectionHeadText}`}>Contact.</h3>
+        <div className="flex justify-between items-center">
+          <h3 className={`${styles.sectionHeadText} w-1/2`}>Contact</h3>
+          <div className="flex justify-between w-1/4 ">
+            <a
+              href="https://www.linkedin.com/in/nikhil-nagar-81b223183/"
+              target="_blank"
+              className=" hover:bg-sky-700">
+              <img
+                src={linkedin}
+                className="w-9 h-9 cursor-pointer object-contain"
+                alt="linkedin"
+              />
+            </a>
+
+            <a href="https://github.com/nikhilnagargit" target="_blank">
+              <img
+                src={github}
+                className="w-10 h-10 hover:bg-green-300 cursor-pointer object-contain"
+                alt="github"
+              />
+            </a>
+          </div>
+        </div>
+
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8">
+          className="mt-5 flex flex-col gap-4">
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Name</span>
+            <span className="text-white font-small mb-2">Your Name</span>
             <input
               type="text"
               name="name"
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className="bg-tertiary py-5 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              className="bg-tertiary py-2 px-6 placeholder:text-secondary text-white rounded-lg outlined-none text-[12px]"
             />
           </label>
           <label className="flex flex-col">
@@ -81,22 +105,23 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
-              className="bg-tertiary py-5 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              className="bg-tertiary py-2 px-6 placeholder:text-secondary text-white rounded-lg outlined-none text-[12px]"
             />
           </label>
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
-            <input
+            <textarea
               type="text"
+              rows={3}
               name="message"
               value={form.message}
               onChange={handleChange}
               placeholder="What do you want to say?"
-              className="bg-tertiary py-5 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              className="bg-tertiary py-2 px-6 placeholder:text-secondary text-white rounded-lg outlined-none text-[12px]"
             />
           </label>
           <button
-            className="rounded-xl bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary"
+            className="rounded-xl bg-[#915EFF] py-2 px-6 outline-none w-fit text-white font-bold shadow-md shadow-primary"
             type="submit">
             {loading ? "Sending..." : "Send"}
           </button>

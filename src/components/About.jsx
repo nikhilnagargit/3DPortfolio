@@ -33,15 +33,14 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-2 text-secondary text-[14px] max-w-3xl leading-[25px]"
         variants={fadeIn("", "", 0.1, 1)}>
-        I'm a skilled software developer with experience in Typescript and
-        javascript. I have experties in frameworks like React, Node.js and
-        Three.js. I'm quick learner and collaborate closely with clients to
-        create efficient, scalable and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to reality.
+        I am creative and confident individual who develop software solutions to
+        integrate and simplify business processes. I see myself to be a UI
+        architect in future and I'm really skillful at what i do. A software
+        engineer creating web application from ideas to reality.
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-5 flex flex-wrap gap-10">
         {services.map((service, index) => {
           return <ServiceCard key={service.title} index={index} {...service} />;
         })}

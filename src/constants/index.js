@@ -23,6 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  ltimindtree,
+  vyorius,
+  chegg,
+  weatherapp,
+  searchandrescue,
 } from "../assets";
 
 export const navLinks = [
@@ -35,8 +40,16 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
+  },
+  {
+    id: "resume",
+    title: "Resume",
   },
 ];
 
@@ -116,55 +129,31 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Senior Consultant",
+    company_name: "LTIMindtree",
+    icon: ltimindtree,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2021 - October 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing frontend interfaces for in-house enterprise applications.",
+      "Administering(patching, purging, upgrading, scheduling) fully fledged SOA/OIC/Linux applications for flagship metal manufacturing client.",
+      "Developing APIs and Integrations using Oracle Integration Cloud",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing automation pipelines(DevOps) and scripts for automated deployments.",
+      "Tools: React, Redux, javascript, OracleCloudInfra, Python, Weblogic, OracleSOASuite",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "FullStack Development Intern",
+    company_name: "Vyorius Drones",
+    icon: vyorius,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Apr 2020 - July 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Vyorius is a SaaS platform for mobile unmanned robots, bringing all of the command, control, supervision, management, asset tracking and maintenance tools in one place",
+      "Developed frontend prototype using open source tools and javascript for geospatial data collection and visualization",
+      "Built python based REST API to convert vector O.S.M. data to raster data and find a suitable path for drone travel.",
+      "Tools : JavaScript, React, Leaflet.js, OpenStreetMaps, Python, Github, ElasticSearch,Django",
     ],
   },
 ];
@@ -198,7 +187,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Search and Rescue",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -211,17 +200,22 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "node.js",
         color: "pink-text-gradient",
       },
+      {
+        name: "leafleat.js",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: searchandrescue,
+    source_code_link: "https://github.com/nikhilnagargit/Search-And-Rescue",
+    live_demo: "https://github.com/nikhilnagargit/Search-And-Rescue",
   },
   {
-    name: "Job IT",
+    name: "Weather Forcaster",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Fully responsive PWA application that enables users to search and save weather info all around the world.",
     tags: [
       {
         name: "react",
@@ -235,9 +229,14 @@ const projects = [
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: weatherapp,
+    source_code_link: "https://github.com/nikhilnagargit/weatherapp",
+    live_demo: "https://nimble-melba-ecc87f.netlify.app/",
   },
   {
     name: "Trip Guide",
@@ -259,6 +258,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    live_demo: "",
   },
 ];
 

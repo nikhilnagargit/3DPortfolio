@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav
-      className={`${styles.paddingX} w-full flex item-center py-5 fixed top-0 z-20 bg-primary`}>
+      className={`${styles.paddingX} w-full flex item-center py-2 fixed top-0 z-20 bg-primary`}>
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
@@ -18,10 +18,15 @@ const Navbar = () => {
             setActive("");
             window.scrollTo(0, 0);
           }}>
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img
+            src={logo}
+            alt="logo"
+            className="w-10 h-10 object-contain shadow"
+          />
+
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Nikhil &nbsp;
-            <span className="sm:block hidden"> | Nagar</span>
+            <span className="lg:block hidden"> Nagar</span>
           </p>
         </Link>
 
@@ -46,12 +51,12 @@ const Navbar = () => {
             onClick={() => {
               setToggle(!toggle);
             }}
-            className="w-[28px] h-[28px] object-contain cursor-pointer"
+            className="w-[20px] h-[20px] object-contain cursor-pointer"
           />
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
+            } p-6 black-gradient absolute top-10 right-0 mx-4 my-3 min-w-[150px] z-10 rounded-xl`}>
             <ul className="list-none flex justify-end items-start flex-col gap-4">
               {navLinks.map((link) => (
                 <li
