@@ -40,7 +40,7 @@ const Navbar = () => {
               onClick={() => {
                 setActive(link.title);
               }}>
-              <a href={`${link.id}`} download={link.title === "resume"}>
+              <a href={`${link.id}`} download={link.title === "Resume"}>
                 {link.title}
               </a>
             </li>
@@ -70,7 +70,9 @@ const Navbar = () => {
                     setActive(link.title);
                     setToggle(!toggle);
                   }}>
-                  <a href={`#${link.id}`}>{link.title}</a>
+                  <a href={`${link.id}`} download={link.title == "Resume"}>
+                    {link.title}
+                  </a>
                 </li>
               ))}
             </ul>

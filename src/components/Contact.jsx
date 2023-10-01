@@ -60,7 +60,7 @@ const Contact = () => {
         <p className={`${styles.sectionSubText}`}>Get in touch</p>
         <div className="flex justify-between items-center">
           <h3 className={`${styles.sectionHeadText} w-1/2`}>Contact</h3>
-          <div className="flex justify-between items-center gap-1 w-1/4 ">
+          <div className="flex justify-end items-center gap-1 w-1/2 ">
             <a
               href="https://www.linkedin.com/in/nikhil-nagar-81b223183/"
               target="_blank"
@@ -68,7 +68,7 @@ const Contact = () => {
               className="hover:bg-green-300 px-1 mx-1">
               <img
                 src={linkedin}
-                className="w-10 h-10 cursor-pointer object-contain"
+                className="w-8 h-8 cursor-pointer object-contain"
                 alt="linkedin"
               />
             </a>
@@ -80,7 +80,7 @@ const Contact = () => {
               target="_blank">
               <img
                 src={github}
-                className="w-10 h-10 cursor-pointer object-contain"
+                className="w-8 h-8 cursor-pointer object-contain"
                 alt="github"
               />
             </a>
@@ -92,7 +92,7 @@ const Contact = () => {
               target="_blank">
               <img
                 src={gmail}
-                className="w-10 h-10 cursor-pointer object-contain"
+                className="w-8 h-8  cursor-pointer object-contain"
                 alt="github"
               />
             </a>

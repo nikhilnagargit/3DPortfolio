@@ -123,7 +123,7 @@ const technologies = [
 const experiences = [
   {
     title: "Senior Consultant",
-    company_name: "LTIMindtree",
+    company_name: "LTIMindtree - Mumbai",
     icon: ltimindtree,
     iconBg: "#383E56",
     date: "July 2021 - October 2023",
@@ -138,10 +138,10 @@ const experiences = [
   },
   {
     title: "FullStack Development Intern",
-    company_name: "Vyorius Drones",
+    company_name: "Vyorius Drones - Delhi",
     icon: vyorius,
     iconBg: "#E6DEDD",
-    date: "Apr 2020 - July 2020",
+    date: "Delhi, Apr 2020 - July 2020",
     points: [
       "Vyorius is a SaaS platform for mobile unmanned robots, bringing all of the command, control, supervision, management, asset tracking and maintenance tools in one place",
       "Developed frontend prototype using open source tools and javascript for geospatial data collection and visualization",
@@ -154,27 +154,19 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "He has done a great job in customizing existing order booking platform for our site. Indeed, He is very supportive.",
+    name: "Dheeraj Prajapati",
+    designation: "Founder",
+    company: "Kruds",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I've never met a web developer who truly cares about their client's success like this guy does.",
+    name: "Chris Evans",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://randomuser.me/api/portraits/men/6.jpg",
   },
 ];
 
