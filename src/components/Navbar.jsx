@@ -21,10 +21,10 @@ const Navbar = () => {
           <img
             src={logo}
             alt="logo"
-            className="w-10 h-10 object-contain shadow"
+            className="w-8 h-8 object-contain shadow"
           />
 
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+          <p className="text-white text-[16px] font-bold cursor-pointer flex">
             Nikhil &nbsp;
             <span className="lg:block hidden"> Nagar</span>
           </p>
@@ -36,11 +36,13 @@ const Navbar = () => {
               key={link.id}
               className={`${
                 active === link.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              } hover:text-white text-[16px] font-medium cursor-pointer`}
               onClick={() => {
                 setActive(link.title);
               }}>
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a href={`${link.id}`} download={link.title === "resume"}>
+                {link.title}
+              </a>
             </li>
           ))}
         </ul>

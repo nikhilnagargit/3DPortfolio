@@ -6,7 +6,7 @@ import { slideIn } from "../utils/motion";
 import { EarthCanvas } from "./canvas";
 import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
-import { github, linkedin } from "../assets";
+import { github, linkedin, gmail } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -60,22 +60,39 @@ const Contact = () => {
         <p className={`${styles.sectionSubText}`}>Get in touch</p>
         <div className="flex justify-between items-center">
           <h3 className={`${styles.sectionHeadText} w-1/2`}>Contact</h3>
-          <div className="flex justify-between w-1/4 ">
+          <div className="flex justify-between items-center gap-1 w-1/4 ">
             <a
               href="https://www.linkedin.com/in/nikhil-nagar-81b223183/"
               target="_blank"
-              className=" hover:bg-sky-700">
+              title="Linkedin"
+              className="hover:bg-green-300 px-1 mx-1">
               <img
                 src={linkedin}
-                className="w-9 h-9 cursor-pointer object-contain"
+                className="w-10 h-10 cursor-pointer object-contain"
                 alt="linkedin"
               />
             </a>
 
-            <a href="https://github.com/nikhilnagargit" target="_blank">
+            <a
+              href="https://github.com/nikhilnagargit"
+              className="hover:bg-purple-300 px-1 mx-1"
+              title="Github"
+              target="_blank">
               <img
                 src={github}
-                className="w-10 h-10 hover:bg-green-300 cursor-pointer object-contain"
+                className="w-10 h-10 cursor-pointer object-contain"
+                alt="github"
+              />
+            </a>
+
+            <a
+              href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=nikhilnagarcps@gmail.com&tf=1"
+              className=" hover:bg-yellow-200 px-1  mx-1"
+              title="nikhilnagarcps@gmail.com"
+              target="_blank">
+              <img
+                src={gmail}
+                className="w-10 h-10 cursor-pointer object-contain"
                 alt="github"
               />
             </a>

@@ -1,8 +1,8 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+  cloud,
+  devops,
+  integration,
+  react,
   javascript,
   typescript,
   html,
@@ -15,60 +15,53 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
   tripguide,
   threejs,
   ltimindtree,
   vyorius,
-  chegg,
   weatherapp,
   searchandrescue,
 } from "../assets";
 
 export const navLinks = [
   {
-    id: "about",
+    id: "#about",
     title: "About",
   },
   {
-    id: "work",
+    id: "#work",
     title: "Work",
   },
   {
-    id: "projects",
+    id: "#projects",
     title: "Projects",
   },
   {
-    id: "contact",
+    id: "#contact",
     title: "Contact",
   },
   {
-    id: "resume",
+    id: "./src/assets/resume_nikhilnagar.pdf",
     title: "Resume",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "React Developer",
+    icon: react,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Integration Developer",
+    icon: integration,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "DevOps Engineer",
+    icon: devops,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Cloud Administrator",
+    icon: cloud,
   },
 ];
 
