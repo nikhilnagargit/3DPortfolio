@@ -37,8 +37,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}>
         I am creative and confident individual who develop software solutions to
         integrate and simplify business processes. I see myself to be a UI
-        architect in future and I'm really skillful at what i do. A software
-        engineer creating web application from ideas to reality.
+        architect in future and I'm really skillful at what i do. I have done
+        below certifications.
+        <ul className="text-white">
+          <li>Oracle Certified: Cloud Architecht Associate 2023</li>
+          <li>
+            Oracle Certified: Cloud Application Integration 2023 Certified
+            Specialist
+          </li>
+          <li>Microsoft Certified: Azure Administrator Associate</li>
+          <li>Microsoft Certified: Azure Fundamentals</li>
+        </ul>
       </motion.p>
       <div className="mt-5 flex flex-wrap gap-10">
         {services.map((service, index) => {
