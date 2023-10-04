@@ -21,6 +21,7 @@ import {
   vyorius,
   weatherapp,
   searchandrescue,
+  resume,
 } from "../assets";
 
 export const navLinks = [
@@ -41,7 +42,7 @@ export const navLinks = [
     title: "Contact",
   },
   {
-    id: "./src/assets/resume_nikhilnagar.pdf",
+    id: resume,
     title: "Resume",
   },
 ];
