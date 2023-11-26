@@ -15,13 +15,13 @@ import {
   git,
   figma,
   docker,
-  tripguide,
   threejs,
   ltimindtree,
   vyorius,
   weatherapp,
   searchandrescue,
   resume,
+  aigenie,
 } from "../assets";
 
 export const navLinks = [
@@ -49,11 +49,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "React Developer",
+    title: "Frontend Development",
     icon: react,
   },
   {
-    title: "Integration Developer",
+    title: "Integrations/API Development",
     icon: integration,
   },
   {
@@ -61,7 +61,7 @@ const services = [
     icon: devops,
   },
   {
-    title: "Cloud Administrator",
+    title: "Cloud Services Administration",
     icon: cloud,
   },
 ];
@@ -173,6 +173,44 @@ const testimonials = [
 
 const projects = [
   {
+    name: "AI Genie",
+    description:
+      "A generative AI based application to demonstrate the latest usecase emegred after chat GPT boom. you can generate images,videos and many more from the prompt.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind.css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Clerk Authentication",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ShadCN UI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: aigenie,
+    source_code_link: "https://github.com/nikhilnagargit/genius-ai-saas",
+    live_demo: "https://ai-genie-by-nikhil.netlify.app/",
+  },
+  {
     name: "Search and Rescue",
     description:
       "Web based platform for SAR operations, aim to find missing objects with minimum time in a determined area. This Application uses gis, maps and algorithms to find out the estimated area where an aircraft would be, and then the search team can use this Map and other details to locate the lost Aircraft.",
@@ -231,28 +269,6 @@ const projects = [
     image: weatherapp,
     source_code_link: "https://github.com/nikhilnagargit/weatherapp",
     live_demo: "https://nimble-melba-ecc87f.netlify.app/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-    live_demo: "",
   },
 ];
 

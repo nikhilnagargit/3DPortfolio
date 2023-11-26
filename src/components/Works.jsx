@@ -6,6 +6,7 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { github, live } from "../assets";
+import { Link } from "react-router-dom";
 
 const ProjectCard = ({
   index,
@@ -17,7 +18,11 @@ const ProjectCard = ({
   live_demo,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      onClick={() => {
+        window.open(source_code_link, "_blank");
+      }}
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 15, scale: 1, speed: 450 }}
         className="bg-tertiary p-3 rounded-2xl sm:w-[355px] w-full">
