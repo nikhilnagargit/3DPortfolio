@@ -70,7 +70,7 @@ const Navbar = () => {
                     setActive(link.title);
                     setToggle(!toggle);
                   }}>
-                  <a href={`${link.id}`} download={link.title == "Resume"}>
+                  <a href={`${link.id}`} download={link.title === "Resume"}>
                     {link.title}
                   </a>
                 </li>
