@@ -22,6 +22,9 @@ import {
   searchandrescue,
   resume,
   aigenie,
+  azure,
+  nextjs,
+  oracle,
 } from "../assets";
 
 export const navLinks = [
@@ -57,7 +60,7 @@ const services = [
     icon: integration,
   },
   {
-    title: "DevOps Engineer",
+    title: "DevOps/CI-CD Automation",
     icon: devops,
   },
   {
@@ -68,22 +71,6 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
@@ -91,6 +78,20 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
+  {
+    name: "Next.js",
+    icon: nextjs,
+  },
+  {
+    name: "React Native",
+    icon: reactjs,
+  },
+
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -119,35 +120,41 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "oracle cloud",
+    icon: oracle,
+  },
+  {
+    name: "azure",
+    icon: azure,
+  },
 ];
 
 const experiences = [
   {
-    title: "Senior Consultant",
+    title: "Senior Software Engineer",
     company_name: "LTIMindtree - Mumbai",
     icon: ltimindtree,
     iconBg: "#383E56",
     date: "July 2021 - October 2023",
     points: [
-      "Developing frontend interfaces for in-house enterprise applications.",
-      "Administering(patching, purging, upgrading, scheduling) fully fledged SOA/OIC/Linux applications for flagship metal manufacturing client.",
-      "Developing APIs and Integrations using Oracle Integration Cloud",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-      "Developing automation pipelines(DevOps) and scripts for automated deployments.",
-      "Tools: React, Redux, javascript, OracleCloudInfra, Python, Weblogic, OracleSOASuite",
+      "Developed and supported multistep workflow application for SX cloud using React, Formik, Redux, RTK, React-router, hooks and tailwind.css for flagship metal manufacturing client. Custom SX application was used to track, approve, integrate and manage the metal/raw material suppliers all over the India.",
+      "Contriubing Integration Command Centre (ICC) application dashboard using Next.js, React, Redux, Typescript, SASS, HOC which required dynamic loading for 20000+ rows, with pagination feature. Conducted unit tests, integration tests for critical workflows using Jest and React Testing Library.",
+      "Achieved expertise in Oracle Integration Cloud for developing REST/SOAP API endpoints. Administered 8+ SOA and OIC environments (Patching, Tuning, Installation, ESS, Upgrade) on oracle Linux and Cloud Infrastructure. Enclosed 200+ CRs/SRs/Bugs from SIT, UAT and PROD environments during fiscal year 2023.",
     ],
   },
   {
-    title: "FullStack Development Intern",
+    title: "Software Development Intern",
     company_name: "Vyorius Drones - Delhi",
     icon: vyorius,
     iconBg: "#E6DEDD",
-    date: "Delhi, Apr 2020 - July 2020",
+    date: "Delhi, Apr 2020 - August 2020",
     points: [
-      "Vyorius is a SaaS platform for mobile unmanned robots, bringing all of the command, control, supervision, management, asset tracking and maintenance tools in one place",
-      "Developed frontend prototype using open source tools and javascript for geospatial data collection and visualization",
-      "Built python based REST API to convert vector O.S.M. data to raster data and find a suitable path for drone travel.",
-      "Tools : JavaScript, React, Leaflet.js, OpenStreetMaps, Python, Github, ElasticSearch,Django",
+      "Vyorius is a SaaS platform for UAVs bringing all of the command, control, supervision, management, asset tracking and maintenance tools in one place",
+      "Developed frontend prototype using open-source tools, Python, React and Redux for geospatial data collection and visualization.",
+      "Utilized Data Structures and Algorithms knowledge to find optimal paths for drone travel to achieve timebound medical equipment delivery.",
+      "Leveraged free OpenStreetMap API, JavaScript, Leaflet.js, Django REST Framework for visualizing drone travel on web.",
+      ,
     ],
   },
 ];

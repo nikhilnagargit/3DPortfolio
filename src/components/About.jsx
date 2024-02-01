@@ -32,13 +32,32 @@ const About = () => {
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
-      <motion.p
+      <motion.div
         className="mt-2 text-secondary text-[14px] max-w-3xl leading-[25px]"
         variants={fadeIn("", "", 0.1, 1)}>
-        I am creative and confident individual who develop software solutions to
-        integrate and simplify business processes. I see myself to be a UI
-        architect in future and I'm really skillful at what i do. I have done
-        below certifications.
+        <span className="border border-green-300 rounded-full px-1 text-white">
+          Creative
+        </span>{" "}
+        and{" "}
+        <span className="border border-yellow-300 rounded-full px-1 text-white">
+          confident
+        </span>{" "}
+        individual who develop software solutions to simplify business
+        processes. I possess proficiency in{" "}
+        <span className="border border-blue-300 rounded-full px-1 text-white">
+          Frontend
+        </span>
+        {", "}
+        <span className="border border-orange-300 rounded-full px-1 text-white">
+          DSA
+        </span>
+        {", and "}
+        <span className="border border-violet-300 rounded-full px-1 text-white">
+          Cloud
+        </span>{" "}
+        technologies. I see myself to be a UI architect in future.
+        <br></br>
+        <br></br>
         <ul className="text-white">
           <li>Oracle Certified: Cloud Architecht Associate 2023</li>
           <li>
@@ -48,7 +67,7 @@ const About = () => {
           <li>Microsoft Certified: Azure Administrator Associate</li>
           <li>Microsoft Certified: Azure Fundamentals</li>
         </ul>
-      </motion.p>
+      </motion.div>
       <div className="mt-5 flex flex-wrap gap-10">
         {services.map((service, index) => {
           return <ServiceCard key={service.title} index={index} {...service} />;

@@ -36,7 +36,13 @@ import react from "./react.png";
 import devops from "./devops.png";
 import resume from "./nikhilnagar.pdf";
 import aigenie from "./aigenie.png";
+import nextjs from "./tech/nextjs.png";
+import azure from "./tech/azure.png";
+import oracle from "./tech/oracle.png";
 export {
+  oracle,
+  nextjs,
+  azure,
   logo,
   resume,
   react,
