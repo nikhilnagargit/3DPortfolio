@@ -34,7 +34,7 @@ import cloud from "./cloud.png";
 import integration from "./integration.png";
 import react from "./react.png";
 import devops from "./devops.png";
-import resume from "./nikhilnagar.pdf";
+import resume from "./nikhilnagar_resume.pdf";
 import aigenie from "./aigenie.png";
 import nextjs from "./tech/nextjs.png";
 import azure from "./tech/azure.png";
