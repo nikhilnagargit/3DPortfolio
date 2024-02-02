@@ -39,6 +39,7 @@ import aigenie from "./aigenie.png";
 import nextjs from "./tech/nextjs.png";
 import azure from "./tech/azure.png";
 import oracle from "./tech/oracle.png";
+import workoutapp from "./workoutapp.png";
 export {
   oracle,
   nextjs,
@@ -81,4 +82,5 @@ export {
   tripguide,
   linkedin,
   aigenie,
+  workoutapp,
 };

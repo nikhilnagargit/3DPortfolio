@@ -25,6 +25,7 @@ import {
   azure,
   nextjs,
   oracle,
+  workoutapp,
 } from "../assets";
 
 export const navLinks = [
@@ -250,6 +251,36 @@ const projects = [
     image: searchandrescue,
     source_code_link: "https://github.com/nikhilnagargit/Search-And-Rescue",
     live_demo: "https://github.com/nikhilnagargit/Search-And-Rescue",
+  },
+  {
+    name: "Stretch Mobile App",
+    description:
+      "Developed for local gym client. This workout tracking app is designed to help you stay motivated and on track, all while providing you information along with on-device notifications.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux-tool-kit",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind.css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "expo-router",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: workoutapp,
+    source_code_link: "https://github.com/nikhilnagargit/workout-app",
+    live_demo: "https://github.com/nikhilnagargit/workout-app",
   },
   {
     name: "Weather Forcaster",
