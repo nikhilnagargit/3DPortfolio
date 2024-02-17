@@ -25,6 +25,7 @@ import {
   azure,
   nextjs,
   oracle,
+  opticalfiber1,
   workoutapp,
 } from "../assets";
 
@@ -181,6 +182,40 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Optical Fiber Website for USA based Startup",
+    description:
+      "USA based startup company wanted to build website for their brand which reflect modern UI and business values in the website. Figma designs and implementation ensured the mobile layout looks good too.",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind.css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Material UI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Figma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Leaflet.js",
+        Color: "blue-text-gradient",
+      },
+    ],
+    image: opticalfiber1,
+    source_code_link: "https://github.com/nikhilnagargit/genius-ai-saas",
+    live_demo: "https://ai-genie-by-nikhil.netlify.app/",
+  },
+  {
     name: "AI Genie",
     description:
       "A generative AI based application to demonstrate the latest usecase emegred after chat GPT boom. you can generate images,videos and many more from the prompt.",
@@ -279,8 +314,8 @@ const projects = [
       },
     ],
     image: workoutapp,
-    source_code_link: "https://github.com/nikhilnagargit/workout-app",
-    live_demo: "https://github.com/nikhilnagargit/workout-app",
+    source_code_link: "https://github.com/nikhilnagargit/optical-fiber-website",
+    live_demo: "https://optical-fiber-website.vercel.app/",
   },
   {
     name: "Weather Forcaster",

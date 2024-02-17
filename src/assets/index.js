@@ -40,7 +40,9 @@ import nextjs from "./tech/nextjs.png";
 import azure from "./tech/azure.png";
 import oracle from "./tech/oracle.png";
 import workoutapp from "./workoutapp.png";
+import opticalfiber1 from "./opticalfiber1.png";
 export {
+  opticalfiber1,
   oracle,
   nextjs,
   azure,

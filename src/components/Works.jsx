@@ -37,7 +37,7 @@ const ProjectCard = ({
               onClick={() => {
                 window.open(source_code_link, "_blank");
               }}
-              className="black-gradient m-1 w-9 h-9 rounded-full flex justify-center items-center cursor-pointer">
+              className="black-gradient m-1 w-9 h-9 rounded-full flex justify-center items-center cursor-pointer border hover:border-yellow-200 hover:border-2">
               <img
                 src={github}
                 alt="github"
@@ -48,7 +48,7 @@ const ProjectCard = ({
               onClick={() => {
                 window.open(live_demo, "_blank");
               }}
-              className="black-gradient w-9 h-9 m-1 rounded-full flex justify-center items-center cursor-pointer">
+              className="black-gradient w-9 h-9 m-1 rounded-full flex justify-center items-center cursor-pointer border hover:border-yellow-200 hover:border-2">
               <img
                 src={live}
                 alt="live"
