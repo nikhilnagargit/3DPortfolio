@@ -212,8 +212,8 @@ const projects = [
       },
     ],
     image: opticalfiber1,
-    source_code_link: "https://github.com/nikhilnagargit/genius-ai-saas",
-    live_demo: "https://ai-genie-by-nikhil.netlify.app/",
+    source_code_link: "https://github.com/nikhilnagargit/optical-fiber-website",
+    live_demo: "https://optical-fiber-website.vercel.app/",
   },
   {
     name: "AI Genie",
