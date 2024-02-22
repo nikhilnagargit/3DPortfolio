@@ -216,6 +216,36 @@ const projects = [
     live_demo: "https://optical-fiber-website.vercel.app/",
   },
   {
+    name: "Stretch Mobile App",
+    description:
+      "Developed for local gym client. This workout tracking app is designed to help you stay motivated and on track, all while providing you information along with on-device notifications.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux-tool-kit",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind.css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "expo-router",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: workoutapp,
+    source_code_link: "https://github.com/nikhilnagargit/optical-fiber-website",
+    live_demo: "https://optical-fiber-website.vercel.app/",
+  },
+  {
     name: "AI Genie",
     description:
       "A generative AI based application to demonstrate the latest usecase emegred after chat GPT boom. you can generate images,videos and many more from the prompt.",
@@ -287,36 +317,7 @@ const projects = [
     source_code_link: "https://github.com/nikhilnagargit/Search-And-Rescue",
     live_demo: "https://github.com/nikhilnagargit/Search-And-Rescue",
   },
-  {
-    name: "Stretch Mobile App",
-    description:
-      "Developed for local gym client. This workout tracking app is designed to help you stay motivated and on track, all while providing you information along with on-device notifications.",
-    tags: [
-      {
-        name: "react-native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux-tool-kit",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "tailwind.css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "expo-router",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-    ],
-    image: workoutapp,
-    source_code_link: "https://github.com/nikhilnagargit/optical-fiber-website",
-    live_demo: "https://optical-fiber-website.vercel.app/",
-  },
+
   {
     name: "Weather Forcaster",
     description:
