@@ -27,6 +27,8 @@ import {
   oracle,
   opticalfiber1,
   workoutapp,
+  simplecheckout,
+  supabase,
 } from "../assets";
 
 export const navLinks = [
@@ -101,6 +103,10 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Supabase",
+    icon: supabase,
   },
   {
     name: "MongoDB",
@@ -182,6 +188,56 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Simple Checkout - SaaS",
+    description:
+      "A greece based saas product to help sellers directly creating checkout links to their products, so their users can buy with outmost simplicity and direct checkout.",
+    tags: [
+      {
+        name: "Supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Shadcn UI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Fullstack",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "Tanstack Tables",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Zod Forms",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Figma",
+        color: "pink-text-gradient",
+      },
+
+      {
+        name: "SaaS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: simplecheckout,
+    source_code_link:
+      "https://github.com/nikhilnagargit/simple-checkout-application",
+    live_demo: "https://www.simplecheckout.co/",
+  },
+  ,
+  {
     name: "Optical Fiber Website for USA based Startup",
     description:
       "USA based startup company wanted to build website for their brand which reflect modern UI and business values in the website. Figma designs and implementation ensured the mobile layout looks good too.",
@@ -203,12 +259,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Figma",
-        color: "pink-text-gradient",
+        name: "Leaflet.js",
+        color: "blue-text-gradient",
       },
       {
-        name: "Leaflet.js",
-        Color: "blue-text-gradient",
+        name: "Figma",
+        color: "pink-text-gradient",
       },
     ],
     image: opticalfiber1,

@@ -13,6 +13,7 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import supabase from "./tech/supabase.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
@@ -34,13 +35,14 @@ import cloud from "./cloud.png";
 import integration from "./integration.png";
 import react from "./react.png";
 import devops from "./devops.png";
-import resume from "./nikhilnagar_resume.pdf";
+import resume from "./nikhilnagar__resume.pdf";
 import aigenie from "./aigenie.png";
 import nextjs from "./tech/nextjs.png";
 import azure from "./tech/azure.png";
 import oracle from "./tech/oracle.png";
 import workoutapp from "./workoutapp.png";
 import opticalfiber1 from "./opticalfiber1.png";
+import simplecheckout from "./simplecheckout.png";
 export {
   opticalfiber1,
   oracle,
@@ -85,4 +87,6 @@ export {
   linkedin,
   aigenie,
   workoutapp,
+  simplecheckout,
+  supabase,
 };
