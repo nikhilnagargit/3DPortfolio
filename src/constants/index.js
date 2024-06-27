@@ -29,6 +29,7 @@ import {
   workoutapp,
   simplecheckout,
   supabase,
+  python,
 } from "../assets";
 
 export const navLinks = [
@@ -101,6 +102,10 @@ const technologies = [
     icon: tailwind,
   },
   {
+    name: "Python",
+    icon: python,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -108,6 +113,7 @@ const technologies = [
     name: "Supabase",
     icon: supabase,
   },
+
   {
     name: "MongoDB",
     icon: mongodb,
@@ -147,8 +153,8 @@ const experiences = [
     date: "July 2021 - October 2023",
     points: [
       "Developed and supported multistep workflow application for SX cloud using React, Formik, Redux, RTK, React-router, hooks and tailwind.css for flagship metal manufacturing client. Custom SX application was used to track, approve, integrate and manage the metal/raw material suppliers all over the India.",
-      "Contriubing Integration Command Centre (ICC) application dashboard using Next.js, React, Redux, Typescript, SASS, HOC which required dynamic loading for 20000+ rows, with pagination feature. Conducted unit tests, integration tests for critical workflows using Jest and React Testing Library.",
-      "Achieved expertise in Oracle Integration Cloud for developing REST/SOAP API endpoints. Administered 8+ SOA and OIC environments (Patching, Tuning, Installation, ESS, Upgrade) on oracle Linux and Cloud Infrastructure. Enclosed 200+ CRs/SRs/Bugs from SIT, UAT and PROD environments during fiscal year 2023.",
+      "Owned the development of third-party E-commerce application dashboard in Next.js, React, Redux, Typescript, Tailwind.css, HOCs with dynamic loading feature for 20000+ rows along with server-side pagination. Integrated Stripe & PayPal APIs for seller onboarding and payment processing. Conducted unit tests, integration tests using React Testing Library",
+      "Maintaining Integration APIs developed in Django REST Framework. Also utilized endpoints to integrate with ERP application using OIC.Enclosed 100+ CRs/SRs/Bugs from SIT, UAT and PROD environments during fiscal year 2023",
     ],
   },
   {
