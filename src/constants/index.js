@@ -62,15 +62,11 @@ const services = [
     icon: react,
   },
   {
-    title: "Integrations/API Development",
+    title: "API/DB Development",
     icon: integration,
   },
   {
-    title: "DevOps/CI-CD Automation",
-    icon: devops,
-  },
-  {
-    title: "Cloud Services Administration",
+    title: "Oracle Cloud Integrations",
     icon: cloud,
   },
 ];
