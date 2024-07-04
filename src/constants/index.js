@@ -29,7 +29,6 @@ import {
   workoutapp,
   simplecheckout,
   supabase,
-  python,
 } from "../assets";
 
 export const navLinks = [
@@ -276,6 +275,32 @@ const projects = [
     image: opticalfiber1,
     source_code_link: "https://github.com/nikhilnagargit/optical-fiber-website",
     live_demo: "https://optical-fiber-website.vercel.app/",
+  },
+  {
+    name: "Music Player Demo",
+    description:
+      "Utilization of best programming practices for a react project. Interacts with samespace cms system to get music albums. Mobile responsiveness, Custom Hooks, Context API etc.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind.css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: musicPlayer,
+    source_code_link: "https://github.com/nikhilnagargit/music-player",
+    live_demo: "https://music-player-liart-ten.vercel.app/",
   },
   {
     name: "Stretch Mobile App",
