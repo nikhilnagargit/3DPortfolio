@@ -43,6 +43,7 @@ import oracle from "./tech/oracle.png";
 import workoutapp from "./workoutapp.png";
 import opticalfiber1 from "./opticalfiber1.png";
 import simplecheckout from "./simplecheckout.png";
+import musicPlayer from "./musicplayer.png";
 export {
   musicPlayer,
   opticalfiber1,
