@@ -44,6 +44,7 @@ import workoutapp from "./workoutapp.png";
 import opticalfiber1 from "./opticalfiber1.png";
 import simplecheckout from "./simplecheckout.png";
 import musicPlayer from "./musicplayer.png";
+import python from "./python.png";
 export {
   musicPlayer,
   opticalfiber1,

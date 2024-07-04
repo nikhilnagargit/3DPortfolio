@@ -29,6 +29,8 @@ import {
   workoutapp,
   simplecheckout,
   supabase,
+  python,
+  musicPlayer,
 } from "../assets";
 
 export const navLinks = [
