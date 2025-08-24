@@ -36,10 +36,6 @@ import {
 
 export const navLinks = [
   {
-    id: "#about",
-    title: "About",
-  },
-  {
     id: "#work",
     title: "Work",
   },
@@ -48,12 +44,13 @@ export const navLinks = [
     title: "Projects",
   },
   {
-    id: "#contact",
-    title: "Contact",
-  },
-  {
     id: resume,
     title: "Resume",
+  },
+
+  {
+    id: "https://leetcode.com/u/nikhilnagarcps/",
+    title: "Leetcode Profile",
   },
 ];
 
