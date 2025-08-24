@@ -31,6 +31,7 @@ import {
   supabase,
   python,
   musicPlayer,
+  lowes,
 } from "../assets";
 
 export const navLinks = [
@@ -62,11 +63,11 @@ const services = [
     icon: react,
   },
   {
-    title: "API/DB Development",
+    title: "Backend Development",
     icon: integration,
   },
   {
-    title: "Oracle Cloud Integrations",
+    title: "Cloud Integrations",
     icon: cloud,
   },
 ];
@@ -143,26 +144,37 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Senior Software Engineer",
-    company_name: "LTIMindtree - Mumbai",
+    title: "Software Engineer",
+    company_name: " Lowe's",
+    icon: lowes,
+    iconBg: "#383E56",
+    date: "October 2024 - Current",
+    points: [
+      "Developed full-stack features for the Quantum platform using React, FastAPI, MongoDB, Apache NiFi, Kafka, and Elasticsearch, enabling real-time processing of product data from Lowe's e-commerce systems.",
+      "Led the design and implementation of the Investigation Module for the Product Safety team, centralizing reviews, complaints, and customer interactions to streamline compliance workflows.",
+      "Utilized LLMs and AI tooling via Windsurf and MCP servers to accelerate software development and deliver AI-enhanced features.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: " LTIMindtree - Mumbai",
     icon: ltimindtree,
     iconBg: "#383E56",
     date: "July 2021 - October 2023",
     points: [
-      "Developed and supported multistep workflow application for SX cloud using React, Formik, Redux, RTK, React-router, hooks and tailwind.css for flagship metal manufacturing client. Custom SX application was used to track, approve, integrate and manage the metal/raw material suppliers all over the India.",
-      "Owned the development of third-party E-commerce application dashboard in Next.js, React, Redux, Typescript, Tailwind.css, HOCs with dynamic loading feature for 20000+ rows along with server-side pagination. Integrated Stripe & PayPal APIs for seller onboarding and payment processing. Conducted unit tests, integration tests using React Testing Library",
-      "Maintaining Integration APIs developed in Django REST Framework. Also utilized endpoints to integrate with ERP application using OIC.Enclosed 100+ CRs/SRs/Bugs from SIT, UAT and PROD environments during fiscal year 2023",
+      "Developed and supported multistep workflow application for SX cloud for flagship metal manufacturing client. Custom SX application was used to track, approve, integrate and manage the metal/raw material suppliers all over the India.",
+      "Owned the development of third-party E-commerce application dashboard in Next.js, React, Redux, Typescript, Tailwind.css, HOCs with dynamic loading feature for 20000+ rows. Integrated Stripe & PayPal APIs for seller onboarding and payment processing.",
+      "Maintaining Integration APIs developed in Django REST Framework. Also utilized endpoints to integrate with ERP application using OIC.",
     ],
   },
   {
     title: "Software Development Intern",
-    company_name: "Vyorius Drones - Delhi",
+    company_name: " Vyorius Drones",
     icon: vyorius,
     iconBg: "#E6DEDD",
     date: "Delhi, Apr 2020 - August 2020",
     points: [
       "Vyorius is a SaaS platform for UAVs bringing all of the command, control, supervision, management, asset tracking and maintenance tools in one place",
-      "Developed frontend prototype using open-source tools, Python, React and Redux for geospatial data collection and visualization.",
       "Utilized Data Structures and Algorithms knowledge to find optimal paths for drone travel to achieve timebound medical equipment delivery.",
       "Leveraged free OpenStreetMap API, JavaScript, Leaflet.js, Django REST Framework for visualizing drone travel on web.",
       ,

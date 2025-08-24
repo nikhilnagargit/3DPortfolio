@@ -35,7 +35,7 @@ import cloud from "./cloud.png";
 import integration from "./integration.png";
 import react from "./react.png";
 import devops from "./devops.png";
-import resume from "./nikhil_nagar_resume.pdf";
+import resume from "./Nikhil_Nagar_Resume_2025_Dark.pdf";
 import aigenie from "./aigenie.png";
 import nextjs from "./tech/nextjs.png";
 import azure from "./tech/azure.png";
@@ -45,6 +45,7 @@ import opticalfiber1 from "./opticalfiber1.png";
 import simplecheckout from "./simplecheckout.png";
 import musicPlayer from "./musicplayer.png";
 import python from "./python.png";
+import lowes from "./lowes.png";
 export {
   musicPlayer,
   opticalfiber1,
@@ -93,4 +94,5 @@ export {
   workoutapp,
   simplecheckout,
   supabase,
+  lowes,
 };
